@@ -17,15 +17,15 @@ loc = -38, 16, -22, 37  #-122.75,36.8,-121.75,37.8,-74,40,-73,41
 Q = sys.argv[1:] 
 
 # Get these values from your application settings
-CONSUMER_KEY = 'W8ovxlTgVyMG9BsZ055F5A'
-CONSUMER_SECRET = '43Bb4v3fKtS2wguvIVs1dh3bMGaMs0pQeQQsAitHRzs'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 
 # Get these values from the "My Access Token" link located in the
 # margin of your application details, or perform the full OAuth
 # dance
 
-ACCESS_TOKEN = '15775653-dKG6p7gRAHxjhuMlL6c2gF4djvpLFbuGqEP1ME1AU'
-ACCESS_TOKEN_SECRET = 'n68hs66aWZuAMyjCwVgTlZy6hwGkiPGVNRsNkx08E'
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
